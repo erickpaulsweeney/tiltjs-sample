@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>TiltJS Sample</title>
+  </head>
+  <body>
+    <img
+      id="image1"
+      src="https://images.unsplash.com/photo-1666742115187-30f79d3b88bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+      alt="The Arab Room in Cardiff Castle"
+    />
+
+    <img
+      id="image2"
+      src="https://images.unsplash.com/photo-1435575653489-b0873ec954e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=800"
+      alt="Glass building"
+    />
+    <img
+      id="image3"
+      src="https://images.unsplash.com/photo-1666688393351-077a4800e6a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      alt="Renaissance decor inside of a beautiful art gallery"
+    />
+    <img
+      id="image4"
+      src="https://images.unsplash.com/photo-1506749547535-fe88ffa57a7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+      alt="Light Stairs"
+    />
+    <img
+      id="image5"
+      src="https://images.unsplash.com/photo-1526889408415-5592265a27a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      alt="Vatican Museums, Roma"
+    />
+
+    <script src="./jquery.js"></script>
+    <script src="./tilt.query.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("img").tilt({
+          scale: 1.1,
+        });
+      });
+    </script>
+  </body>
+</html>
